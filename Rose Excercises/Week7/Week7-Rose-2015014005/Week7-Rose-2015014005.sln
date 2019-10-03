@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Week7-Rose-2015014005", ".", "{97616961-F886-4BC5-AC5C-CED343712BFE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52663"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Downloads\Week7-Rose-2015014005\Week7-Rose-2015014005\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52663\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52663"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Downloads\Week7-Rose-2015014005\Week7-Rose-2015014005\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52663\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52663"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97616961-F886-4BC5-AC5C-CED343712BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97616961-F886-4BC5-AC5C-CED343712BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

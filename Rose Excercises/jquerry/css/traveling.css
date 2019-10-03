@@ -1,0 +1,149 @@
+﻿body {
+	background: rgba(90, 190, 48, 0.69)
+	color: #f7f7f7;
+	font-family: 'Montserrat', sans-serif;
+}
+h1,h2 {
+	font-weight: bold;
+}
+p {
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+.jumbotron {
+	background: #29c6d5;
+	color: white;
+	text-align: center;
+}
+.jumbotron p {
+	color: white;
+	font-size: 26px;
+}
+.btn-primary {
+	color: #fff;
+	background-color: transparent;
+	border-color: white;
+	margin-bottom: 5px;
+}
+.btn-primary:hover {
+	color: #27A967;
+	background-color: white;
+	border-color: white;
+}
+.navbar-inverse {
+	background: #2E2F31;
+	border: 0;
+}
+.navbar-inverse .navbar-nav li a {
+	color: #f7f7f7;
+	font-size: 16px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+	background: #27A967;
+}
+.dropdown-menu {
+	background: #2E2F31;
+	border-radius: 0;
+	border: 0;
+}
+.dropdown-menu li a {
+	padding: 10px;
+}
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+	background: #2C463C;
+}
+.messages {
+	text-align: center;
+}
+.messages p {
+	margin-bottom: 30px;
+	font-family: sans-serif;
+}
+.glyphicon-large {
+	font-size: 100px;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+        
+        .affix {
+            top: 0;
+            width: 100%;
+        }
+
+            .affix + .container-fluid {
+                padding-top: 70px;
+            }
+            
+
+h1 {
+ display: block;
+ color:#4cff00;
+ background-repeat:no-repeat;
+
+
+    }
+body{
+    color:green;margin:auto;
+}
+
+#wrapper {
+    background-color: #3ec2c2;
+    width: 90%;
+    min-width: 700px;
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border:2px ridge #0033B2;
+    border-radius:5px 5px;      
+}
+input {
+    padding-left:3em;
+}
+form legend{border:5px solid #3dd2dc;width:80%;text-align:center;font-family:'Times New Roman', Times, serif;font-size:large;font-weight:bold;}
+form{border-style:ridge;
+     border-radius:3px 4px;
+   
+     background: white;
+     
+}
+
+
+
+label {
+    display: inline;
+}
+
+button{float:right;
+       text-align:center;
+}
+
+
+footer {
+    padding: 10px;
+    margin-left: 180px;
+    display: block;
+    font-style: italic;
+    font-size: .60em;
+}
+
+main {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width:80%;
+}
+  

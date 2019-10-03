@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Prime9", "..\Documents\Web Design\Prime9\", "{A8DCFAF4-E3D0-4251-AA33-EC1BD121AFFB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52663"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Web Design\Prime9\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52663\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52663"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\Web Design\Prime9\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52663\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52663"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8DCFAF4-E3D0-4251-AA33-EC1BD121AFFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8DCFAF4-E3D0-4251-AA33-EC1BD121AFFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

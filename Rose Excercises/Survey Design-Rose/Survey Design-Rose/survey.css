@@ -1,0 +1,82 @@
+﻿body {
+    background-color: #D8D4D3;
+    
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif,sans-serif;
+}
+
+
+
+header {
+    color: #D8D4D3;
+    display: block;   
+    background-repeat: no-repeat;
+    height: 100px;
+    background-image:url(beach.jpg);
+   background-size:100% 100%;
+    
+}
+h1 {
+ display: block;
+ color:#4cff00;
+ background-repeat:no-repeat;
+
+
+    }
+
+#wrapper {
+    background-color: #3ec2c2;
+    width: 90%;
+    min-width: 700px;
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border:2px ridge #0033B2;
+    border-radius:5px 5px;      
+}
+input {
+    padding-left:3em;
+}
+form legend{border:5px solid #3dd2dc;width:80%;text-align:center;font-family:'Times New Roman', Times, serif;font-size:large;font-weight:bold;}
+form{border-style:ridge;
+     border-radius:3px 4px;
+   
+     background: linear-gradient(blue, green);
+     
+}
+
+
+
+label {
+    display: inline;
+}
+
+button{float:right;
+       text-align:center;
+}
+
+
+footer {
+    padding: 10px;
+    margin-left: 180px;
+    display: block;
+    font-style: italic;
+    font-size: .60em;
+}
+
+main {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width:80%;
+}
+
+
+
+

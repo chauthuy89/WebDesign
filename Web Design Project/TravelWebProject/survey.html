@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Viet Travel</title>
+    <link href="logo.png" rel="shortcut icon" type="image/x-icon" />
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/traveling.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse" data-spy="affix " data-offset-top="197">
+        <div class="container-fluid">
+             <div class="navbar-header">
+                <a class="navbar-brand" href="home.html"> <img id="mylogo" src="logo.png" alt="logo" height="50" width="50" /></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="home.html">Home</a></li>
+
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="about.html">
+                        About
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="company.html">Company</a></li>
+                        <li><a href="overview.html">Overview</a></li>
+                    </ul>
+                </li>
+                <li><a href="news.html">News</a></li>
+
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="destinations.html">
+                        Destinations
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="hanoi.html">Ha Noi</a></li>
+                        <li><a href="halongbay.html">Ha Long Bay</a></li>
+                        <li><a href="hochiminh.html">Ho Chi Minh</a></li>
+                        <li><a href="dalat.html">Da Lat</a></li>
+                        <li><a href="hue.html">Hue</a></li>
+                        <li><a href="danang.html">Da Nang</a></li>
+                        <li><a href="hoian.html">Hoi An</a></li>
+                        <li><a href="ninhbinh.html">Ninh Binh</a></li>
+                        <li><a href="quangbinh.html">Quang Binh</a></li>
+                        <li><a href="haiphong.html">Hai Phong</a></li>
+                        <li><a href="nhatrang.html">Nha Trang</a></li>
+                        <li><a href="phuquoc.html">Phu Quoc Island</a></li>
+                        <li><a href="condao.html">Con Dao Island</a></li>
+                        <li><a href="cantho.html">Can Tho</a></li>
+                        <li><a href="sapa.html">Sapa</a></li>
+                        <li>
+                            <a href="muine.html">Mui Ne</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+
+                <li class="active"><a href="survey.html">Survey</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    
+    
+    <main>
+        <div id="background">
+            <form id="myform" method="post" action="http://webdevbasics.net/scripts/demo.php">
+                <fieldset>
+                    <legend>Travel Survey</legend><br />
+                    <label for="myName">*Name:</label>
+                    <input type="text" name="myName" id="myName" required="required" /><br /><br />
+                    <label for="myEmail">*E-mail:</label>
+                    <input type="text" name="myEmail" id="myEmail" required="required" /><br /><br />
+
+                    <label><strong>1.Where are you from?</strong></label><br /><br />
+
+                    <input type="radio" name="area" value="Asia" />Asia<br />
+                    <input type="radio" name="area" value="Europe" />Europe<br />
+                    <input type="radio" name="area" value="America" />America<br />
+                    <input type="radio" name="area" value="America" />Africa<br />
+                    <input type="radio" name="area" value="Australia" />Australia<br /><br />
+
+
+                    <label for="Ysurvey"><strong>2.Do you like travel?</strong></label><br /><br />
+
+                    <input type="radio" name="survey" id="Ysurvey" value="Yes" />Yes<br />
+                    <input type="radio" name="survey" id="Nsurvey" value="No" />No<br /><br />
+
+
+                    <label for="3times"><strong>3.How many times do you travel annual?</strong></label><br /><br />
+
+                    <input type="radio" name="times" id="3times" value="3times" />less than 3 times<br />
+                    <input type="radio" name="times" id="5times" value="5times" />less than 5 times<br />
+                    <input type="radio" name="times" id="10times" value="10times" />from 5 to 10 times<br />
+                    <input type="radio" name="times" id="more10times" value="more10time" />more than 10 times<br /><br />
+
+
+                    <label><strong> 4.What are you interested in a trip?</strong></label><br /> <br />
+
+                    <input type="checkbox" name="TouristAttraction" id="TouristAttraction" value="yes" /> Tourist Attraction<br />
+                    <input type="checkbox" name="Food" id="Food" value="yes" /> Food <br />
+                    <input type="checkbox" name="Transport" id="Transport" value="yes" /> Transport<br />
+                    <input type="checkbox" name="Accommodation" id="Accommodation" value="yes" /> Accomodation<br />
+                    <input type="checkbox" name="Cultureandcustom" id="Cultureandcustom" value="yes" /> Culture and custom<br />
+                    <input type="checkbox" name="Other" id="Other" value="yes" /> Other<br /><br />
+
+                    <label for="packageholiday"><strong>5.Do you like travel with a package holiday or with your plan?</strong></label><br /><br />
+                    <input type="radio" name="holiday" id="packageholiday" value="package holiday" />Package Holiday<br />
+                    <input type="radio" name="holiday" id="planbyyourself" value="plan by yourself" />Plan by yourself<br /><br />
+
+                    <label for="Friends"><strong>6.Where do you often look up or research information from when planning a trip?</strong> </label><br /><br />
+                    <input type="checkbox" name="Friends" id="Friends" value="yes" />Friends<br />
+                    <input type="checkbox" name="Travel Agency" id="TravelAgency" value="yes" />Travel Agency<br />
+                    <input type="checkbox" name="Internet" id="Internet" value="yes" />Internet<br />
+                    <input type="checkbox" name="Newspapers" id="Newspapers" value="yes" />Newspapers<br />
+                    <input type="text" name="Others" id="Others" /> Others<br /><br />
+
+                    <label><strong>7.Which country do you like to travel?</strong></label><br /><br />
+                    <label for="country">Favorite country:</label>
+                    <select size="1" name="country" id="country">
+
+                        <option value="Korea">Korea</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="China">China</option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="Lao">Lao</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="HongKong">Hongkong</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="America">America</option>
+                        <option value="Australia">Australia</option>
+                        <option value="France">France</option>
+                        <option value="England">England</option>
+                        <option value="Russia">Russia</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Others">Others</option>
+
+                    </select>
+                    <br /><br /><br />
+                    <label for="Comments">*Some experiences that you have done which you enjoyed when travelling.</label><br /><br />
+                    <textarea name="myComments" id="Comments" rows="4" cols="60" required="required"></textarea><br /><br />
+                    <label for="myDate"><strong>8.If you had a chance to make a trip to favourite tourist attraction, what ideal time would you choose?</strong></label>
+                    <input type="date" name="myDate" id="myDate" /><br /><br />
+                    <button type="submit">
+                        <img src="button.png" width="160" height="50" alt="Submit for free" /><br />Submit for free
+                    </button>
+
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    
+
+
+    <ul class="pager">
+        <li class="previous disabled"><a href="#">&larr; Older</a></li>
+        <li class="next"><a href="#">Newer &rarr;</a></li>
+    </ul>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <footer>
+        Copy &copy; Viettravel 2016 .chauthuy89@gmail.com
+    </footer>
+</body>
+
+</html>

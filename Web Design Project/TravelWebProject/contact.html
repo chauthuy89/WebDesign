@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Lab</title>
+    <link href="logo.png" rel="shortcut icon" type="image/x-icon" />
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/traveling.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+   
+</head>
+
+<body>
+    <div class="container-fluid" style="background-image:url(images/bannertravel.jpg)">
+         
+    </div>
+    <nav class="navbar navbar-inverse" data-spy="affix " data-offset-top="197">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="home.html"> <img id="mylogo" src="logo.png" alt="logo" height="50" width="50" /></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li ><a href="home.html">Home</a></li>
+
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="about.html">
+                        About
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="company.html">Company</a></li>
+                        <li><a href="overview.html">Overview</a></li>
+                    </ul>
+                </li>
+                <li><a href="news.html">News</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="destinations.html">
+                        Destinations
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="hanoi.html">Ha Noi</a></li>
+                        <li><a href="halongbay.html">Ha Long Bay</a></li>
+                        <li><a href="hochiminh.html">Ho Chi Minh</a></li>
+                        <li><a href="dalat.html">Da Lat</a></li>
+                        <li><a href="hue.html">Hue</a></li>
+                        <li><a href="danang.html">Da Nang</a></li>
+                        <li><a href="hoian.html">Hoi An</a></li>
+                        <li><a href="ninhbinh.html">Ninh Binh</a></li>
+                        <li><a href="quangbinh.html">Quang Binh</a></li>
+                        <li><a href="haiphong.html">Hai Phong</a></li>
+                        <li><a href="nhatrang.html">Nha Trang</a></li>
+                        <li><a href="phuquoc.html">Phu Quoc Island</a></li>
+                        <li><a href="condao.html">Con Dao Island</a></li>
+                        <li><a href="cantho.html">Can Tho</a></li>
+                        <li><a href="sapa.html">Sapa</a></li>
+                        <li>
+                            <a href="muine.html">Mui Ne</a>
+                        </li>
+                        </ul>
+                        <li><a href="gallery.html">Gallery</a></li>
+
+                        <li><a href="survey.html">Survey</a></li>
+                        <li class="active"	><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+</div>
+
+    </nav>
+
+    
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container">
+        <h3 class="text-center">Contact</h3>
+        <p class="text-center"><em></em></p>
+
+        <div class="row">
+            <div class="col-md-4">
+                <p>Contact Us</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span>Invercargill,New Zealand</p>
+                <p><span class="glyphicon glyphicon-phone"></span>Phone: +64204639999</p>
+                <p><span class="glyphicon glyphicon-envelope"></span>Email:chauthuy89@mail.com</p>
+            </div>
+            <div class="col-md-8">
+			 <form id="myform" method="post" action="http://webdevbasics.net/scripts/demo.php">
+                <div class="row">
+                    
+                    <div class="col-sm-6 form-group">
+                       
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                     </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                <br>
+                <div class="row">
+                    <div class="col-md-12 form-group">
+                       
+                        <button class="btn pull-right btn-danger" type="submit">Send</button>
+                       
+                     </div>
+                </div>
+				</form>
+            </div>
+        </div>
+        </div>
+        <br>
+        <ul class="pager">
+            <li><a href="#">Previous</a></li>
+            <li><a href="#">Next</a></li>
+        </ul>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+ 
+    <footer>
+        Copyright &copy; Viettravel 2016 .chauthuy89@gmail.com
+    </footer>
+</body>
+</html>

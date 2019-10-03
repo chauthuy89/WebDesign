@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Viet Travel</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="survey.css" rel="stylesheet" />
+    <link href="logo.png" rel="shortcut icon" type="image/x-icon" />
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Viet Travel</h1>
+        </header>
+
+        <main>
+            <form method="post" action="http://webdevbasics.net/scripts/demo.php">
+                <fieldset>
+                    <legend>Travel Survey</legend><br />
+                    <label for="myName">*Name:</label>
+                    <input type="text" name="myName" id="myName" required="required" /><br /><br />
+                    <label for="myEmail">*E-mail:</label>
+                    <input type="text" name="myEmail" id="myEmail" required="required" /><br /><br />
+
+                    <label for="Asia"><strong>1.Where are you from?</strong></label><br /><br />
+
+                    <input type="radio" name="area" id="Asia" value="Yes" />Asia<br />
+                    <input type="radio" name="area" id="Europe" value="Yes" />Europe<br />
+                    <input type="radio" name="area" id="America" value="Yes" />America<br />
+                    <input type="radio" name="area" id="Africa" value="Yes" />Africa<br />
+                    <input type="radio" name="area" id="Australia" value="Yes" />Australia<br /><br />
+
+
+                    <label for="Ysurvey"><strong>2.Do you like travel?</strong></label><br /><br />
+
+                    <input type="radio" name="survey" id="Ysurvey" value="Yes" />Yes<br />
+                    <input type="radio" name="survey" id="Nsurvey" value="Yes" />No<br /><br />
+
+
+                    <label for="3times"><strong>3.How many times do you travel annual?</strong></label><br /><br />
+
+                    <input type="radio" name="times" id="3times" value="Yes" />less than 3 times<br />
+                    <input type="radio" name="times" id="5times" value="Yes" />less than 5 times<br />
+                    <input type="radio" name="times" id="10times" value="Yes" />from 5 to 10 times<br />
+                    <input type="radio" name="times" id="more10times" value="Yes" />more than 10 times<br /><br />
+
+
+                    <label><strong> 4.What are you interested in a trip?</strong></label><br /> <br />
+
+                    <input type="checkbox" name="TouristAttraction" id="TouristAttraction" value="yes" /> Tourist Attraction<br />
+                    <input type="checkbox" name="Food" id="Food" value="yes" /> Food <br />
+                    <input type="checkbox" name="Transport" id="Transport" value="yes" /> Transport<br />
+                    <input type="checkbox" name="Accommodation" id="Accommodation" value="yes" /> Accomodation<br />
+                    <input type="checkbox" name="Cultureandcustom" id="Cultureandcustom" value="yes" /> Culture and custom<br />
+                    <input type="checkbox" name="Other" id="Other" value="yes" /> Other<br /><br />
+
+                    <label for="packageholiday"><strong>5.Do you like travel with a package holiday or with your plan?</strong></label><br /><br />
+                    <input type="radio" name="holiday" id="packageholiday" value="yes" />Package Holiday<br />
+                    <input type="radio" name="holiday" id="planbyyourself" value="yes" />Plan by yourself<br /><br />
+
+                    <label for="Friends"><strong>6.Where do you often look up or research information from when planning a trip?</strong> </label><br /><br />
+                    <input type="checkbox" name="Friends" id="Friends" value="yes" />Friends<br />
+                    <input type="checkbox" name="Travel Agency" id="TravelAgency" value="yes" />Travel Agency<br />
+                    <input type="checkbox" name="Internet" id="Internet" value="yes" />Internet<br />
+                    <input type="checkbox" name="Newspapers" id="Newspapers" value="yes" />Newspapers<br />
+                    <input type="text" name="Others" id="Others" /> Others<br /><br />
+
+                    <label><strong>7.Which country do you like to travel?</strong></label><br /><br />
+                    <label for="country">Favorite country:</label>
+                    <select size="1" name="country" id="country">
+
+                        <option value="Korea">Korea</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="China">China</option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="Lao">Lao</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="HongKong">Hongkong</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="America">America</option>
+                        <option value="Australia">Australia</option>
+                        <option value="France">France</option>
+                        <option value="England">England</option>
+                        <option value="Russia">Russia</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Others">Others</option>
+
+                    </select>
+                    <br /><br /><br />
+                    <label for="Comments">*Some experiences that you have done which you enjoyed when travelling.</label><br /><br />
+                    <textarea name="myComments" id="Comments" rows="4" cols="60" required="required"></textarea><br /><br />
+                    <label for="myDate"><strong>8.If you had a chance to make a trip to favourite tourist attraction, what ideal time would you choose?</strong></label>
+                    <input type="date" name="myDate" id="myDate" /><br /><br />
+                    <button type="submit">
+                        <img src="button.png" width="160" height="50" alt="Submit for free" /><br />Submit for free
+                    </button>
+
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <br />Copyright &copy; 2016 Travel Survey<br />
+            <a href="mailto:chauthuy89@gmail.com">chauthuy89@gmail.com<br /><br /></a>
+        </footer>
+    </div>
+</body>
+</html>
